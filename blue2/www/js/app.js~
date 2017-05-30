@@ -1,0 +1,11 @@
+var BluetoothStatus = require('BluetoothStatus.js');
+alert("app!");
+alert("app!");
+alert("app!");
+
+
+BluetoothStatus.initPlugin();
+BluetoothStatus.enableBT ();
+
+
+

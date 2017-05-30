@@ -1,0 +1,6 @@
+var le = require(/.BluetoothStatus);
+
+
+le.initPlugin();
+le.enableBT();
+

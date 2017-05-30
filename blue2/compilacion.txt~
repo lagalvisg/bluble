@@ -1,0 +1,242 @@
+[36m[phonegap][39m executing 'cordova run -d android ' ...
+No scripts found for hook "before_run".
+
+
+No scripts found for hook "before_prepare".
+
+
+Checking config.xml for saved platforms that haven't been added to the project
+
+
+Checking for any plugins added to the project that have not been installed in android platform
+
+
+No differences found between plugins added to project and installed in android platform. Continuing...
+
+
+Generating platform-specific config.xml from defaults for android at /opt/lampp/htdocs/blue1/platforms/android/res/xml/config.xml
+
+
+Merging project's config.xml into platform-specific android config.xml
+
+
+Merging and updating files from [www, platforms/android/platform_www] to platforms/android/assets/www
+
+
+  copy  www/index.html platforms/android/assets/www/index.html (updated file)
+
+
+  copy  www/index.html~ platforms/android/assets/www/index.html~ (updated file)
+
+
+  copy  www/js/BluetoothStatusp.js platforms/android/assets/www/js/BluetoothStatusp.js (updated file)
+  copy  www/js/BluetoothStatusp.js~ platforms/android/assets/www/js/BluetoothStatusp.js~ (new file)
+  copy  www/js/app.js platforms/android/assets/www/js/app.js (updated file)
+
+  copy  www/js/app.js~ platforms/android/assets/www/js/app.js~ (updated file)
+
+
+Wrote out android application name "helloworld" to /opt/lampp/htdocs/blue1/platforms/android/res/values/strings.xml
+
+
+android-versionCode not found in config.xml. Generating a code based on version in config.xml (1.0.0): 10000
+
+
+Wrote out Android package name "com.phonegap.helloworld" to /opt/lampp/htdocs/blue1/platforms/android/src/com/phonegap/helloworld/MainActivity.java
+
+Updating icons at platforms/android/res
+
+
+Updating splash screens at platforms/android/res
+
+
+This app does not have additional resource files defined
+
+
+Prepared android project successfully
+
+No scripts found for hook "after_prepare".
+
+
+Checking config.xml for saved plugins that haven't been added to the project
+
+ANDROID_HOME=/opt/Android/Sdk
+
+JAVA_HOME=/usr/lib/jvm/java-8-oracle
+
+Subproject Path: CordovaLib
+
+Running command: /opt/lampp/htdocs/blue1/platforms/android/gradlew cdvBuildDebug -b /opt/lampp/htdocs/blue1/platforms/android/build.gradle -Dorg.gradle.daemon=true -Dorg.gradle.jvmargs=-Xmx2048m -Pandroid.useDeprecatedNdk=true
+
+
+The Task.leftShift(Closure) method has been deprecated and is scheduled to be removed in Gradle 5.0. Please use Task.doLast(Action) instead.
+
+
+	at build_aa642gi569k49431f69d5g5n3.run(/opt/lampp/htdocs/blue1/platforms/android/build.gradle:137)
+
+
+The JavaCompile.setDependencyCacheDir() method has been deprecated and is scheduled to be removed in Gradle 4.0.
+
+Incremental java compilation is an incubating feature.
+
+The TaskInputs.source(Object) method has been deprecated and is scheduled to be removed in Gradle 4.0. Please use TaskInputs.file(Object).skipWhenEmpty() instead.
+
+:preBuild
+ 
+UP-TO-DATE
+
+
+:preDebugBuild
+ UP-TO-DATE
+
+:checkDebugManifest
+:CordovaLib:preBuild
+ UP-TO-DATE
+:CordovaLib:preDebugBuild UP-TO-DATE
+
+:CordovaLib:checkDebugManifest
+
+:CordovaLib:prepareDebugDependencies
+:CordovaLib:compileDebugAidl UP-TO-DATE
+:CordovaLib:compileDebugNdk UP-TO-DATE
+:CordovaLib:compileLint UP-TO-DATE
+:CordovaLib:copyDebugLint UP-TO-DATE
+:CordovaLib:mergeDebugShaders 
+UP-TO-DATE
+:CordovaLib:compileDebugShaders UP-TO-DATE
+
+:CordovaLib:generateDebugAssets UP-TO-DATE
+:CordovaLib:mergeDebugAssets UP-TO-DATE
+:CordovaLib:mergeDebugProguardFiles UP-TO-DATE
+:CordovaLib:packageDebugRenderscript UP-TO-DATE
+:CordovaLib:compileDebugRenderscript UP-TO-DATE
+
+:CordovaLib:generateDebugResValues UP-TO-DATE
+
+:CordovaLib:generateDebugResources
+ UP-TO-DATE
+
+:CordovaLib:packageDebugResources
+ UP-TO-DATE
+:CordovaLib:processDebugManifest UP-TO-DATE
+
+:CordovaLib:generateDebugBuildConfig UP-TO-DATE
+
+:CordovaLib:processDebugResources UP-TO-DATE
+:CordovaLib:generateDebugSources
+ 
+UP-TO-DATE
+:CordovaLib:incrementalDebugJavaCompilationSafeguard
+ UP-TO-DATE
+
+:CordovaLib:compileDebugJavaWithJavac UP-TO-DATE
+:CordovaLib:processDebugJavaRes UP-TO-DATE
+:CordovaLib:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:CordovaLib:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:CordovaLib:mergeDebugJniLibFolders UP-TO-DATE
+:CordovaLib:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:CordovaLib:transformNative_libsWithSyncJniLibsForDebug UP-TO-DATE
+:CordovaLib:bundleDebug UP-TO-DATE
+:prepareOrgApacheCordovaCordovaLib623DebugLibrary UP-TO-DATE
+:prepareDebugDependencies
+
+:compileDebugAidl UP-TO-DATE
+
+:compileDebugRenderscript
+ UP-TO-DATE
+:generateDebugBuildConfig UP-TO-DATE
+:generateDebugResValues UP-TO-DATE
+:generateDebugResources UP-TO-DATE
+:mergeDebugResources UP-TO-DATE
+:processDebugManifest UP-TO-DATE
+:processDebugResources UP-TO-DATE
+:generateDebugSources UP-TO-DATE
+
+:incrementalDebugJavaCompilationSafeguard 
+UP-TO-DATE
+:compileDebugJavaWithJavac
+ UP-TO-DATE
+:compileDebugNdk UP-TO-DATE
+:compileDebugSources UP-TO-DATE
+
+:mergeDebugShaders
+ UP-TO-DATE
+:compileDebugShaders
+ UP-TO-DATE
+:generateDebugAssets
+ UP-TO-DATE
+
+:mergeDebugAssets
+
+
+:transformClassesWithDexForDebug
+ UP-TO-DATE
+:mergeDebugJniLibFolders
+ UP-TO-DATE
+:transformNative_libsWithMergeJniLibsForDebug
+ UP-TO-DATE
+:processDebugJavaRes
+ UP-TO-DATE
+:transformResourcesWithMergeJavaResForDebug
+ UP-TO-DATE
+:validateSigningDebug
+
+
+:packageDebug
+
+:assembleDebug
+
+:cdvBuildDebug
+
+
+
+BUILD SUCCESSFUL
+
+Total time: 4.18 secs
+
+Command finished with error code 0: /opt/lampp/htdocs/blue1/platforms/android/gradlew cdvBuildDebug,-b,/opt/lampp/htdocs/blue1/platforms/android/build.gradle,-Dorg.gradle.daemon=true,-Dorg.gradle.jvmargs=-Xmx2048m,-Pandroid.useDeprecatedNdk=true
+
+
+Built the following apk(s): 
+	/opt/lampp/htdocs/blue1/platforms/android/build/outputs/apk/android-debug.apk
+
+
+No scripts found for hook "before_deploy".
+
+
+ANDROID_HOME=/opt/Android/Sdk
+
+JAVA_HOME=/usr/lib/jvm/java-8-oracle
+
+Running command: adb devices
+
+
+Command finished with error code 0: adb devices
+
+
+No target specified and no devices found, deploying to emulator
+
+Running command: adb devices
+
+Command finished with error code 0: adb devices
+
+
+Running command: avdmanager list avd
+
+
+Command finished with error code 0: avdmanager list,avd
+
+
+Error: Error
+    at /opt/lampp/htdocs/blue1/platforms/android/cordova/lib/emulator.js:279:29
+    at _fulfilled (/opt/lampp/htdocs/blue1/platforms/android/cordova/node_modules/q/q.js:854:54)
+    at self.promiseDispatch.done (/opt/lampp/htdocs/blue1/platforms/android/cordova/node_modules/q/q.js:883:30)
+    at Promise.promise.promiseDispatch (/opt/lampp/htdocs/blue1/platforms/android/cordova/node_modules/q/q.js:816:13)
+    at /opt/lampp/htdocs/blue1/platforms/android/cordova/node_modules/q/q.js:624:44
+    at runSingle (/opt/lampp/htdocs/blue1/platforms/android/cordova/node_modules/q/q.js:137:13)
+    at flush (/opt/lampp/htdocs/blue1/platforms/android/cordova/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+
+

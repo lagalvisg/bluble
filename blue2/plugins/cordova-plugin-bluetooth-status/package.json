@@ -1,0 +1,101 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-bluetooth-status",
+        "scope": null,
+        "escapedName": "cordova-plugin-bluetooth-status",
+        "name": "cordova-plugin-bluetooth-status",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/opt/lampp/htdocs/blue1/node_modules"
+    ]
+  ],
+  "_from": "cordova-plugin-bluetooth-status@latest",
+  "_id": "cordova-plugin-bluetooth-status@1.0.4",
+  "_inCache": true,
+  "_location": "/cordova-plugin-bluetooth-status",
+  "_nodeVersion": "5.5.0",
+  "_npmOperationalInternal": {
+    "host": "packages-6-west.internal.npmjs.com",
+    "tmp": "tmp/cordova-plugin-bluetooth-status-1.0.4.tgz_1455471733959_0.9173528507817537"
+  },
+  "_npmUser": {
+    "name": "255kb",
+    "email": "hi@guillaumemonnet.com"
+  },
+  "_npmVersion": "3.3.12",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-bluetooth-status",
+    "scope": null,
+    "escapedName": "cordova-plugin-bluetooth-status",
+    "name": "cordova-plugin-bluetooth-status",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-bluetooth-status/-/cordova-plugin-bluetooth-status-1.0.4.tgz",
+  "_shasum": "14cb51e423fc39ff00b40908954fbca005c3514d",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-bluetooth-status",
+  "_where": "/opt/lampp/htdocs/blue1/node_modules",
+  "author": {
+    "name": "Guillaume Monnet"
+  },
+  "bugs": {
+    "url": "https://github.com/255kb/cordova-plugin-bluetooth-status/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-bluetooth-status",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova Bluetooth status plugin",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "14cb51e423fc39ff00b40908954fbca005c3514d",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-bluetooth-status/-/cordova-plugin-bluetooth-status-1.0.4.tgz"
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "gitHead": "352fe89c56e84f852ba80d7ef08755c7c10f8ee1",
+  "homepage": "https://github.com/255kb/cordova-plugin-bluetooth-status#readme",
+  "keywords": [
+    "cordova",
+    "bluetooth",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "255kb",
+      "email": "hi@guillaumemonnet.com"
+    }
+  ],
+  "name": "cordova-plugin-bluetooth-status",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/255kb/cordova-plugin-bluetooth-status.git"
+  },
+  "scripts": {},
+  "version": "1.0.4"
+}

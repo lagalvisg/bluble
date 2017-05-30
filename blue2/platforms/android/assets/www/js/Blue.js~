@@ -1,0 +1,11 @@
+var bl  = function() {
+};
+bl.alert = function() {
+
+alert("bluemain!");
+alert("bluemain!");
+alert("bluemain!");
+  
+};
+alert("BLUE10!");
+alert("BLUE67!");
